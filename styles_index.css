@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "lexendtera";
+    src: url(fonts/lexendtera-variablefont-webfont.woff2);
+}
+
+@font-face {
+    font-family: "opensans";
+    src: url(fonts/opensans-variablefont-webfont.woff2);
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-weight: 300;
+    src: url(fonts/roboto-light-webfont.woff2);
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-weight: 400;
+    src: url(fonts/roboto-regular-webfont.woff2);
+}
+
+@font-face {
+    font-family: 'roboto';
+    font-weight: 700;
+    src: url(fonts/roboto-bold-webfont.woff2);
+}
+
+
+
+body {
+    background: url("imagens/background.png"), repeat-y, center; margin: 0px; margin-top: 8px; margin-bottom: 8px;
+}
+
+header {
+    height: fit-content; width: 75%; margin: auto; background-color: #2e1a47;
+    border-top-left-radius: 5px; border-top-right-radius: 5px;
+
+}
+
+footer {
+    height: fit-content; margin: auto;
+    background-color: #ffffff; padding: 5px;
+}
+
+nav {
+    padding: 0px;
+    background-color: #ffffff;
+    overflow: hidden;
+    border: 1px solid rgba(221, 221, 221, 1);
+}
+
+.ul-nav {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.li-nav {
+    float: left;
+}
+
+.li-a {
+    display: block; padding: 10px; background-color: #ffffff; font-family: 'opensans';
+    border-right: 1px solid #dddddd;
+}
+
+.li-a:hover {
+    background-color: #dddddd;
+}
+
+.li-b {
+    display: block; padding: 10px; padding-right: 25px; padding-left: 25px; background-color: #ffffff; font-family: 'opensans';
+    border-right: 1px solid #dddddd;
+}
+
+.white-background {
+    width: 75%; margin: auto;
+    background-color: rgba(29, 29, 27, 0.8);
+    border-bottom-left-radius: 5px; border-bottom-right-radius: 5px;
+    overflow: hidden; overflow-wrap: break-word;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+}
+
+.header-spacer {
+    background-color: rgba(193, 143, 255, 0.3); height: 70px; width: 3px; border-radius: 5px;
+}
+
+.logo-img {
+    padding: 20px; height: 70px; width: 70px;
+}
+
+.h1-header {
+    margin: 0px; padding: 5px; padding-right: 20px; padding-left: 20px;
+}
+
+.h1-style {
+    font-size: 40px; font-family: 'lexendtera'; color: #c18fff; text-align: left; letter-spacing: 2px;
+}
+
+.p-header {
+    font-family: 'roboto'; font-size: 20px; font-weight: 700; color: #c18fff; padding-left: 25px; margin: 0px; letter-spacing: 3px;
+}
+
+.img-row {
+    display:flex; flex-wrap: wrap; justify-content: center; align-items: center;
+
+}
+
+.h2-block {
+    background-color: #2e1a47; border-radius: 5px; width: fit-content; margin: auto; margin-bottom: 20px; margin-top: 20px;
+    padding: 10px; padding-left: 20px; padding-right: 20px;
+}
+
+.h2-style {
+    font-family: 'roboto'; text-align: center; color: #c18fff; font-weight: 300; margin: 0px;
+}
+
+.img-style1 {
+    border-radius: 5%; padding: 5px;
+}
+
+.img-style2 {
+    display: block; margin: auto; border-radius: 5%;
+}
+
+.fig-style {
+    font-family: 'opensans'; font-size: 11px; color: #ffffff; text-align: center;
+}
+
+.h3-style {
+    color: #c18fff; font-family: 'roboto'; font-size: 20px; margin: 0px; 
+}
+
+.p-comment {
+    font-family: 'opensans'; font-size: 14px; padding: 15px; margin: 0px; line-height: 1.5; text-align: justify;
+}
+
+.comment-block {
+    background-color: #ffffff; border-radius: 5px; overflow: hidden; width: 95%;
+    margin: auto; margin-top: 20px; margin-bottom: 20px;
+}
+
+.comment-header {
+    background-color: #2e1a47; padding-left: 15px; padding-top: 10px; padding-bottom: 10px;
+}
+
+.p-footer {
+    font-size: 12px; font-family: 'opensans'; letter-spacing: 1px; margin: 0px; padding-left: 10px; padding-right: 10px;
+}
+
+.footer-row {
+    display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;
+}
+
+.img-footer {
+    height: 20px; width: 20px; opacity: 50%;
+}
+
+.link-footer {
+    height: 20px; width: 20px; padding-left: 4px; padding-right: 4px;
+}
+
+.footer-column {
+    display: flex; flex-wrap: nowrap; justify-content: center; align-items: center; padding-left: 6px; padding-right: 6px;
+    border-right: 1px solid #dddddd; border-left: 1px solid #dddddd;
+}
+
+.secret-row {
+    display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; align-items: center;
+}
+
+.p-secret {
+    font-size: 11px; font-family: 'opensans'; margin: 0px; color: rgba(121, 121, 121, 0.5);
+}
+
+.img-secret {
+    height: 100px; width: 100px; opacity: 25%;
+}
+
+.div-secret {
+    height: 100px; width: 100px;
+}
